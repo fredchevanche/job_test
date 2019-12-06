@@ -3,12 +3,12 @@ agent any
 stages{
   stage('Build'){
   steps{
-  sh 'C:\Users\Chevanche\Documents\apache-maven-3.6.3\bin\mvn clean install'
+  sh 'C:/Users/Chevanche/Documents/apache-maven-3.6.3/bin/mvn clean install'
   }
 }
 stage('Test'){
   steps{
-  sh 'C:\Users\Chevanche\Documents\apache-maven-3.6.3\bin\mvn test'
+  sh 'C:/Users/Chevanche/Documents/apache-maven-3.6.3/bin/mvn test'
   }
 }
 }
